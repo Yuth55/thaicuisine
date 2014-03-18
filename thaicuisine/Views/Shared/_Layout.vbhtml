@@ -32,7 +32,7 @@
                     <ul class="main-menu nav">
                         <li>
                             <header class="small-logo">
-                                <a href="index.html" title=""><img src="img/logo.png" alt="Barnelli" /></a>
+                                <a href="index.html" title=""><img src="img/logo.png" alt="Thai Cuisine" /></a>
                             </header>
                         </li>
                         <li class="reorder">

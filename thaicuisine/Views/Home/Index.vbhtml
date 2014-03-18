@@ -7,7 +7,7 @@ End Code
         <div class="social-share top">
             <ul>
                 <li>
-                    <a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/pages/Thai-Cuisine-Restaurant/115893918454924"><i class="fa fa-facebook"></i></a>
                 </li>
                 @*<li>
                     <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
@@ -23,11 +23,11 @@ End Code
                 </li>*@
             </ul>
         </div>
-        <div class="arrow-nav hidden-sm hidden-md hidden-lg">
+        @*<div class="arrow-nav hidden-sm hidden-md hidden-lg">
             <a href="restaurant.html">
                 <i class="fa fa-share"></i>
             </a>
-        </div>
+        </div>*@
         <div id="maximage">
             <div>
                 <img src="~/img/pad-thai-shrimp.jpeg" alt="" data-href=".slide1" />
