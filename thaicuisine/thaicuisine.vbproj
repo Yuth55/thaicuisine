@@ -114,7 +114,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -558,6 +557,7 @@
     <Content Include="img\chalkboard-loop.jpg" />
     <Content Include="img\chalkboard.jpg" />
     <Content Include="img\controls.png" />
+    <Content Include="img\currySoft.jpg" />
     <Content Include="img\dots.png" />
     <Content Include="img\icon1.png" />
     <Content Include="img\icon2.png" />
@@ -567,6 +567,9 @@
     <Content Include="img\logo.png" />
     <Content Include="img\logo2.png" />
     <Content Include="img\menuBackground.png" />
+    <Content Include="img\pad-thai-shrimp.jpeg" />
+    <Content Include="img\sauteedsoftshellcrab.JPG" />
+    <Content Include="img\sizzlingduck.jpg" />
     <Content Include="img\tom_yum.jpg" />
     <Content Include="js\affix.js" />
     <Content Include="js\alert.js" />
@@ -713,6 +716,7 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="Properties\PublishProfiles\Thaicuisine.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="less\bootstrap\media.css" />
     <Content Include="less\bootstrap\menu.css" />
