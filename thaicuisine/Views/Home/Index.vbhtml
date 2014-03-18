@@ -2,30 +2,48 @@
     ViewData("Title") = "Home Page"
 End Code
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-</div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+<div id="content-wrapper">
+    <div class="dynamic-content container" id="main-content">
+        <div class="social-share top">
+            <ul>
+                <li>
+                    <a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://google.com"><i class="fa fa-google-plus"></i></a>
+                </li>
+                @*<li>
+                    <a href="https://pinterest.com"><i class="fa fa-pinterest"></i></a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a>
+                </li>*@
+            </ul>
+        </div>
+        <div class="arrow-nav hidden-sm hidden-md hidden-lg">
+            <a href="restaurant.html">
+                <i class="fa fa-share"></i>
+            </a>
+        </div>
+        <div id="maximage">
+            <div>
+                <img src="http://placehold.it/2560x1440" alt="" class="current-slide" data-href=".slide1" />
+            </div>
+            <div>
+                <img src="http://placehold.it/2560x1440" alt="" data-href=".slide2" />
+            </div>
+            <div>
+                <img src="http://placehold.it/2560x1440" alt="" data-href=".slide3" />
+            </div>
+            <div>
+                <img src="http://placehold.it/2560x1440" alt="" data-href=".slide3" />
+            </div>
+            <div>
+                <img src="http://placehold.it/2560x1440" alt="" data-href=".slide3" />
+            </div>
+        </div>
     </div>
 </div>
