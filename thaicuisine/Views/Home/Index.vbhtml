@@ -2,6 +2,7 @@
     ViewData("Title") = "Home Page"
 End Code
 
+
 <div id="content-wrapper">
     <div class="dynamic-content container" id="main-content">
         <div class="social-share top">
@@ -30,19 +31,29 @@ End Code
         </div>*@
         <div id="maximage">
             <div>
-                <img src="~/img/pad-thai-shrimp.jpeg" alt="" data-href=".slide1" />
+                <img src="~/img/pad-thai-shrimp.jpeg" class="current-slide" alt="" data-href=".slide1" />
+            </div>
+
+            <div>
+                <img src="~/img/curryminor.jpg" alt="" data-href=".slide2" />
             </div>
             <div>
-                <img src="~/img/sizzlingduck.jpg" alt="" data-href=" .slide3" />
+                <img src="~/img/duckcurry.JPG" alt="" data-href=" .slide3" />
             </div>
             <div>
-                <img src="~/img/currySoft.jpg" alt="" data-href=".slide2" />
+                <img src="~/img/masacurry.jpg" alt="" data-href=" .slide4" />
             </div>
             <div>
-                <img src="~/img/tom_yum.jpg" alt="" class="current-slide" data-href=".slide4" />
+                <img src="~/img/masamum2.jpg" alt="" data-href=".slide5" />
             </div>
             <div>
-                <img src="~/img/sauteedsoftshellcrab.JPG" alt="" data-href=".slide5" />
+                <img src="~/img/red-curry-with-chicken.jpg" alt="" data-href=".slide6" />
+            </div>
+            <div>
+                <img src="~/img/soft-shell-crab-and-smoked-trout-003.jpg" alt="" data-href=".slide7" />
+            </div>
+            <div>
+                <img src="~/img/thai-pork-satay-bangkok.jpg" alt="" data-href=".slide8" />
             </div>
         </div>
     </div>
