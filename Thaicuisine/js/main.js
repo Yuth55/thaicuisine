@@ -358,7 +358,7 @@ $('document').ready(function($) {
 
 	$(document).on('click', '.refresh-captcha', function(e) {
 		e.preventDefault();
-		$('#captcha').attr('src', '../inc/securimage/securimage_show.php?' + Math.random());
+		$('#captcha').attr('src', 'inc/securimage/securimage_show.php?' + Math.random());
 	});
 
 	$(document).on("focus", "#reservation-form input, #reservation-form textarea", function(e) {
@@ -637,7 +637,7 @@ function initialize() {
 		position: markerPosition,
 		title: 'Location',
 		map: map,
-		icon: { url: 'img/icon1.png', origin: new google.maps.Point(0, 0) },
+		title:"test",
 		draggable: false
 	});
 }

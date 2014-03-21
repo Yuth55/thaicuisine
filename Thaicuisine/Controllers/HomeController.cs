@@ -20,5 +20,10 @@ namespace Thaicuisine.Controllers
             return View();
         }
 
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
 	}
 }
